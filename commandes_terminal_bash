@@ -22,10 +22,16 @@ pour sauvgarde en ligne de commende il y a 3 étapes
 * **git add** = permet de sélectionner les fichiers que tu veux sauvgarder. 
 il y a 3 manières : 
 
-	* `git add le_nom_de_ton_fuchier` (ou dossier tu peux en selectionner autant que tu veux en écrivant les nom les un après les autres exemple : git add fichier1 fichier2 fichier3)
+	* `git add le_nom_de_ton_fichier` (ou dossier tu peux en selectionner autant que tu veux en écrivant les nom les un après les autres exemple : git add fichier1 fichier2 fichier3)
 	* `git add *` ça sélectionne tous les fchiers modifiés
 	* `git add .` sélectionne tout. 
 
 * `git commit -m` pour donner une description des modifications apporté
 
 * `git push` pour envoyer sur le repository git
+
+* `git pull` pour récupérer et mettre à jour la branche en local
+
+* `git stash` pour mettre de coté les modifications faites en local
+
+* `git stash pop` pour remettre les modifications effectués
